@@ -1,0 +1,24 @@
+Hanger — sell from a photo
+==========================
+
+This is a copy of the Hanger app. Open it, add your own pieces, and change the copy if you want.
+
+What it does
+- Take or choose a photo of a clothing item.
+- Hanger names it, suggests a price, and writes the listing.
+- You copy the fields into Poshmark, eBay, Mercari, Depop, Vinted, Facebook Marketplace, or Grailed.
+- Your photos and listings stay in this browser. They are not in this file.
+
+How to run it
+1. Install Node.js 22 or newer.
+2. Unzip this folder.
+3. In the folder, run: npm install
+4. Then run: npm run dev
+5. Open http://127.0.0.1:8080
+
+Add your own input
+- On the first screen, type anything the photo might miss (size, brand, a stain).
+- Take or choose a photo. That creates the listing.
+- On the listing, edit brand, size, price, condition, and flaws before you copy it out.
+
+Pricing research uses an xAI key set as XAI_API_KEY on the machine that runs the app. Without that key, the screens still open, but a new photo cannot be researched.
